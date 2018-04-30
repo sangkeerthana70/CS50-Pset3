@@ -1,3 +1,23 @@
+/*
+Peer Review by Pascal Laurent:
+
+You did a wonderful job with program. I like the fact you take the time
+to modularize your program. It is superbly easy to follow.
+The program is also well documented. You may have forgot to
+remove some the testing code. I would remove the following lines
+Line 27,30, 34, 70, 71, and 89
+
+I would remove the extra spaces in other to make the application
+more compact.
+
+I think you could also refactor is_rest(string s) into a
+simple return statement by removing the if-statement:
+
+    return !(strcmp(s, ""));
+
+You did a wonderful job. Keep on learning.
+
+*/
 // Helper functions for music
 #include <stdio.h>
 #include <cs50.h>
